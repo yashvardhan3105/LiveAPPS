@@ -1,0 +1,16 @@
+#Contact {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 900;
+}
+
+a{
+  font-size: 60px;
+}
+p {
+  text-justify: inter-word;
+}

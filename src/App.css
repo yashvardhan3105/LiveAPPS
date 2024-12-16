@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+:root {
+  --primary: rgba(171, 171, 171, 1);
+  --secondary: rgba(228, 240, 176, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Psr;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  list-style-type: lower-roman;
+}
+
+@font-face {
+  font-family: "Psr";
+  src: url("../src/Components/Assets/Font/Psr.woff");
+}
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Animation Slide To Bottom */
+
+/* Animation:
+-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+*/
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-10rem);
+    transform: translateY(-10rem);
+  }
+  100% {
+    -webkit-transform: translateY();
+    transform: translateY();
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-10rem);
+    transform: translateY(-10rem);
+  }
+  100% {
+    -webkit-transform: translateY();
+    transform: translateY();
+  }
+}
+
+/* Animation Slide To Right */
+
+/* Animation: 
+-webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+*/
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(200px);
+    transform: translateX(-200px);
+  }
+  100% {
+    -webkit-transform: translateX();
+    transform: translateX();
+  }
+}
+
+/* Animation Slide To Left */
+
+/* Animation: 
+-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+*/
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+  }
+  100% {
+    -webkit-transform: translateX();
+    transform: translateX();
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(400px);
+    transform: translateX(400px);
+  }
+  100% {
+    -webkit-transform: translateX();
+    transform: translateX();
+  }
+}
+
+/* Fade In Effect*/
+
+/* Use: 
+-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+*/
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Background Pan Text Effect */
+
+@-webkit-keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}

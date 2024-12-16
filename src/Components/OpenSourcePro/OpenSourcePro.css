@@ -1,0 +1,97 @@
+.opensource__mainbody {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.opensource__wrapper {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(59, 59, 59, 0.189);
+  flex-direction: column;
+
+  color: #fff;
+}
+
+.opensource__head {
+  color: #fff;
+}
+
+/* Shape on top */
+.opensource__divider1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.opensource__divider1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+}
+
+.opensource__divider1 .shape-fill {
+  fill: rgba(59, 59, 59, 0.127);
+}
+
+.opensource__head {
+  font-weight: 900;
+  font-size: x-large;
+}
+
+/* LIST PLEASE DO NOT EDIT */
+
+/* Make a simple UI for the Mobile */
+
+.opensource__wrapper > h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* The Bottom Wave: */
+
+.opensource__divider2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.opensource__divider2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 99px;
+}
+
+.opensource__divider2 .shape-fill {
+  fill: rgba(59, 59, 59, 0.127);
+}
+
+.opensource__wrapper_projects img {
+
+  margin-left: 40px;
+}
+
+.opensource__wrapper_projects h2{
+  transform: translate(-580px);
+}
+
+.opensource__wrapper_projects img{
+  transform: translate(-580px);
+}
+
+.opensource__paragraph_kittychan{
+  position: absolute;
+  transform: translate(-250px, -150px);
+}

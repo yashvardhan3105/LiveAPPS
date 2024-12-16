@@ -1,0 +1,123 @@
+.techused__mainbody{
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+    
+}
+
+.techused__containerclass{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.techused__mainbody h3{
+  text-align: center;
+  color: #ff51b1;
+
+  font-size: 35px;
+}
+
+.frontend__slider-wrapper{
+  align-self: center;
+}
+
+.techused__mainbody h1{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+        animation: background-pan 3s linear infinite;
+        letter-spacing: 0px;
+        background: linear-gradient(
+            to right,
+            rgb(255, 0, 251),
+            rgba(255, 0, 251, 0.74),
+            rgba(255, 0, 251, 0.612),
+            rgb(255, 0, 251)
+
+        );
+
+    filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.175)22);
+
+        -webkit-background-clip: text;
+        background-clip:text;
+        -webkit-text-fill-color: transparent;
+        background-size: 200%;
+        margin-bottom: 40px;
+
+        font-size: 50px;
+}
+
+/* Images */
+
+.frontend__slider-wrapper{
+    max-width: 60%;
+    max-height: 60%;
+
+
+}
+
+.frontend__slider{
+    display: flex;
+    aspect-ratio: 10/5;
+    overflow-x: auto;
+}
+
+.frontend__slider-wrapper button {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
+      margin-top: 0.4rem;
+    font-size: 17px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    background: rgba(59, 59, 59, 0.422);
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6rem;
+    cursor: pointer;
+  }
+  
+.frontend__slider-wrapper_gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6rem;
+    margin-top: -0.25rem;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    );
+  }
+  
+.frontend__slider-wrapper_label {
+    position: relative;
+    top: -1px;
+  }
+  
+.frontend__slider-wrapper_transition {
+    transition-timing-function: cubic-bezier(0, 0, 3, 1);
+    transition-duration: 500ms;
+    background-color: #c803ff;
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.frontend__slider-wrapper button:hover .frontend__slider-wrapper_transition {
+    width: 14em;
+    height: 14em;
+  }
+  
+.frontend__slider-wrapper button:active {
+    transform: scale(0.97);
+  }
