@@ -27,7 +27,7 @@ export const Contact = () => {
           experiences and create innovative solutions, I am reaching out to you.
         </p>
         <p>
-          I am looking for talented individuals with expertise in AI/ML and
+          We are looking for talented individuals with expertise in AI/ML and
           UI/UX to join our team or contribute to our open-source projects. Your
           contributions would not only help in the development and growth of
           Jaga.live and our open-source projects but also contribute to a
