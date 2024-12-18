@@ -65,6 +65,39 @@ export const OpenSourcePro = () => {
               auto-ban, auto-moderation, text moderation..
             </p>
           </div>
+          <div>
+            <h2>
+              #1: <h4>Kitty Chan</h4>
+            </h2>
+            <img src={kittyChanimg} width={250} height={250}></img>
+            <p className="opensource__paragraph_kittychan">
+              Kitty Chan is a Discord bot designed to enhance the experience of
+              the users. It contains the latest safety features such as,
+              auto-ban, auto-moderation, text moderation..
+            </p>
+          </div>
+          <div>
+            <h2>
+              #1: <h4>Kitty Chan</h4>
+            </h2>
+            <img src={kittyChanimg} width={250} height={250}></img>
+            <p className="opensource__paragraph_kittychan">
+              Kitty Chan is a Discord bot designed to enhance the experience of
+              the users. It contains the latest safety features such as,
+              auto-ban, auto-moderation, text moderation..
+            </p>
+          </div>
+          <div>
+            <h2>
+              #1: <h4>Kitty Chan</h4>
+            </h2>
+            <img src={kittyChanimg} width={250} height={250}></img>
+            <p className="opensource__paragraph_kittychan">
+              Kitty Chan is a Discord bot designed to enhance the experience of
+              the users. It contains the latest safety features such as,
+              auto-ban, auto-moderation, text moderation..
+            </p>
+          </div>
         </div>
       </div>
 
