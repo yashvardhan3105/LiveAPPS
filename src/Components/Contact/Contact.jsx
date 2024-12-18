@@ -22,9 +22,9 @@ export const Contact = () => {
 
       <div>
         <p>
-          As someone who is passionate about leveraging the power of artificial
-          intelligence (AI) and machine learning (ML) to enhance user
-          experiences and create innovative solutions, I am reaching out to you.
+          As someone who is passionate about leveraging the power of AI and ML
+          to enhance user experiences and create innovative solutions, I am
+          reaching out to you.
         </p>
         <p>
           We are looking for talented individuals with expertise in AI/ML and
